@@ -28,31 +28,35 @@ k.loadSprite("adventurer", "sprites/Adventurer/adventurer-Sheet.png", {
     slide: { from: 24, to: 28, speed: 16 },
     hurt: { from: 59, to: 61, speed: 16 },
     die: { from: 62, to: 68, speed: 16 },
+    jump: { from: 69, to: 71, speed: 16 },
   },
 });
 
+k.loadSprite("room", "map/map.png");
+
 async function main() {
-  const roomData = await (await fetch("/map/Map.json")).json();
+  const roomData = await (await fetch("/map/map.json")).json();
+
   k.scene("room", () => {
-    room(k);
+    room(k, roomData);
   });
+
+  k.scene("intro", () => {
+    setBackgroundColor(k, "#1b8a74");
+    k.add(
+      makeNotificationBox(
+        k,
+        "Escape the factory!\nUse arrow keys to move, x to jump, z to attack.\nPress Enter to start!",
+      ),
+    );
+    k.onKeyPress("enter", () => {
+      k.go("room");
+    });
+  });
+
+  k.go("intro");
 }
 
 main();
-
-k.scene("intro", () => {
-  setBackgroundColor(k, "#20214a");
-  k.add(
-    makeNotificationBox(
-      k,
-      "Escape the factory!\nUse arrow keys to move, x to jump, z to attack.\nPress Enter to start!",
-    ),
-  );
-  k.onKeyPress("enter", () => {
-    // const context = new AudioContext();
-    // context.resume();
-    k.go("room", { exitName: null });
-  });
-});
 
 k.go("intro");

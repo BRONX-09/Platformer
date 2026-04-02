@@ -1,7 +1,7 @@
 export function makeNotificationBox(k, content) {
   const container = k.make([
     k.rect(480, 100),
-    k.color(k.Color.fromHex("#20214a")),
+    k.color(k.Color.fromHex("#1b8a74")),
     k.fixed(),
     k.pos(k.center()),
     k.area(),
