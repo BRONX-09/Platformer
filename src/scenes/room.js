@@ -1,4 +1,8 @@
-import { setCameraZones, setMapColliders } from "./sceneUtils";
+import {
+  setCameraControls,
+  setCameraZones,
+  setMapColliders,
+} from "./sceneUtils";
 import { makePlayer } from "../entities/player";
 
 export function room(k, roomData) {
@@ -13,11 +17,11 @@ export function room(k, roomData) {
   const colliders = roomLayers[3].objects;
   const positions = roomLayers[4].objects;
   const cameras = roomLayers[5].objects;
+  const player = map.add(makePlayer(k));
 
   setMapColliders(k, map, colliders);
   setCameraZones(k, map, cameras);
-
-  const player = map.add(makePlayer(k));
+  setCameraControls(k, player, map, roomData);
 
   for (const position of positions) {
     if (position.name === "player") {

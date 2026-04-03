@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="173">
+<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="212">
  <editorsettings>
   <export target="map.json" format="json"/>
  </editorsettings>
@@ -212,68 +212,77 @@
  </layer>
  <objectgroup id="12" name="colliders" visible="0">
   <object id="37" x="0" y="195" width="31" height="15.5"/>
-  <object id="38" x="32" y="258.333" width="1085" height="16.6667"/>
+  <object id="38" x="32.0833" y="263.25" width="1085" height="16.6667"/>
   <object id="39" x="580" y="320" width="56.5" height="540"/>
   <object id="40" x="864" y="0" width="288" height="32"/>
   <object id="41" x="898.5" y="32" width="30.5" height="93"/>
-  <object id="42" x="955.5" y="67.5" width="33.5" height="29.5"/>
-  <object id="43" x="991" y="99.5" width="29" height="58.5"/>
-  <object id="44" x="963" y="162.5" width="185.667" height="26.5"/>
-  <object id="45" x="1122" y="100" width="28.5" height="60"/>
+  <object id="42" x="955.5" y="71.75" width="33.5" height="25.25"/>
+  <object id="43" x="991" y="102.917" width="29" height="55.0833"/>
+  <object id="44" x="963" y="167.583" width="185.667" height="21.4167"/>
+  <object id="45" x="1121.25" y="103.25" width="28.5" height="64"/>
   <object id="46" x="930.5" y="128.5" width="30.5" height="29"/>
-  <object id="47" x="640" y="672" width="29.5" height="29"/>
-  <object id="48" x="640" y="834" width="29" height="26"/>
-  <object id="49" x="96" y="579" width="481.5" height="56"/>
-  <object id="50" x="0" y="642.5" width="29" height="26"/>
-  <object id="51" x="0" y="768" width="28" height="29"/>
-  <object id="52" x="66" y="706.5" width="90.5" height="25"/>
-  <object id="53" x="36" y="865.5" width="25" height="30.5"/>
-  <object id="54" x="1.5" y="898.5" width="1435" height="20.5"/>
-  <object id="55" x="707" y="579" width="892.5" height="20.5"/>
-  <object id="56" x="1156" y="418.333" width="95.6667" height="25"/>
-  <object id="57" x="1219.67" y="67.3333" width="153" height="24.3333"/>
-  <object id="58" x="1506.33" y="100" width="27" height="55.3333"/>
-  <object id="59" x="1540.33" y="321.333" width="59.6667" height="27.3333"/>
-  <object id="60" x="1540.67" y="450" width="59.3333" height="25.6667"/>
-  <object id="61" x="1347" y="195.333" width="90.3333" height="30.6667"/>
-  <object id="62" x="1252.33" y="259" width="18" height="279"/>
-  <object id="63" x="1317.67" y="227.333" width="29.6667" height="28.6667"/>
-  <object id="64" x="1434.67" y="227" width="32.3333" height="24.6667"/>
-  <object id="65" x="1408" y="1024" width="96" height="32"/>
-  <object id="66" x="707" y="737" width="25.5" height="58.5"/>
-  <object id="67" x="1536" y="1088" width="64" height="32"/>
-  <object id="68" x="1472" y="1184" width="32" height="32"/>
-  <object id="69" x="214.667" y="1218.67" width="1385.33" height="20.6667"/>
+  <object id="47" x="640" y="678.917" width="29.5" height="22.0833"/>
+  <object id="48" x="640" y="839.583" width="29" height="20.4167"/>
+  <object id="49" x="96" y="585.167" width="481.5" height="49.8333"/>
+  <object id="50" x="0" y="647.167" width="29" height="21.3333"/>
+  <object id="51" x="0" y="773.917" width="28" height="23.0833"/>
+  <object id="52" x="66" y="710.417" width="90.5" height="21.0833"/>
+  <object id="53" x="36" y="871.083" width="25" height="24.9167"/>
+  <object id="54" x="-0.5" y="904.833" width="1434.67" height="12.1667"/>
+  <object id="55" x="707.833" y="583.5" width="893.5" height="20.5"/>
+  <object id="56" x="1156.33" y="425.333" width="95.6667" height="20"/>
+  <object id="57" x="1219.67" y="69.0833" width="153" height="22.5833"/>
+  <object id="58" x="1506.33" y="103.667" width="27" height="51.6666"/>
+  <object id="59" x="1540.33" y="327.583" width="59.6667" height="21.0833"/>
+  <object id="60" x="1540.67" y="455.833" width="59.3333" height="19.8334"/>
+  <object id="61" x="1347" y="199.833" width="90.3333" height="26.1667"/>
+  <object id="62" x="1252.33" y="285.917" width="18" height="252.083"/>
+  <object id="63" x="1317.67" y="233.833" width="29.6667" height="22.1667"/>
+  <object id="64" x="1434.67" y="230.083" width="32.3333" height="21.5834"/>
+  <object id="65" x="1408" y="1031.42" width="96" height="24.5833"/>
+  <object id="66" x="707" y="743.917" width="25.5" height="51.5833"/>
+  <object id="67" x="1541.63" y="1095" width="58.75" height="26.5"/>
+  <object id="68" x="1474.63" y="1190.13" width="26.375" height="25.875"/>
+  <object id="69" x="214.917" y="1222.17" width="1385.33" height="20.6667"/>
   <object id="124" x="217.333" y="1256" width="1382.67" height="17.3333"/>
-  <object id="70" x="0" y="1280" width="32" height="96"/>
-  <object id="71" x="32" y="1312" width="32" height="32"/>
-  <object id="72" x="97.3333" y="1378.67" width="29.3333" height="59.3333"/>
-  <object id="73" x="160" y="1443.33" width="96" height="28.6667"/>
-  <object id="78" x="1504" y="1440" width="96" height="32"/>
+  <object id="70" x="0" y="1288.67" width="32" height="87.3333"/>
+  <object id="71" x="32" y="1318.58" width="32" height="25.4167"/>
+  <object id="72" x="97.3333" y="1382.75" width="29.3333" height="55.25"/>
+  <object id="73" x="161.25" y="1446.58" width="93.25" height="25.4167"/>
+  <object id="78" x="1503.75" y="1445.92" width="96.25" height="26.0833"/>
   <object id="79" x="32" y="196">
    <polygon points="0,0 1.33333,57.3333 38.6667,58.6667"/>
   </object>
-  <object id="103" name="final-boss-barrier" x="673.334" y="1281.33" width="9.33367" height="261.333"/>
-  <object id="106" name="boss-barrier" x="92" y="324" width="8.33333" height="252.333"/>
-  <object id="109" x="0.666667" y="1537.67" width="1599.5" height="23.6667"/>
-  <object id="110" x="649.5" y="1345" width="20.5" height="190.5"/>
-  <object id="111" x="577.5" y="1344.5" width="70.5" height="32.5"/>
-  <object id="112" x="547" y="1376.5" width="45.5" height="32.5"/>
-  <object id="113" x="514" y="1408" width="53.5" height="33.5"/>
-  <object id="114" x="482.5" y="1440" width="55.5" height="33"/>
-  <object id="115" x="451.5" y="1472.5" width="56.5" height="31.5"/>
-  <object id="116" x="420.5" y="1504" width="54.5" height="33"/>
+  <object id="103" name="final-boss-barrier" x="1002.33" y="1277.83" width="9.33367" height="269.833">
+   <properties>
+    <property name="camPosX" type="int" value="1258"/>
+   </properties>
+  </object>
+  <object id="106" name="boss-barrier" x="92" y="324" width="8.33333" height="252.333">
+   <properties>
+    <property name="camPosX" type="int" value="335"/>
+   </properties>
+  </object>
+  <object id="109" x="0.166667" y="1542.5" width="1599.5" height="23.6667"/>
+  <object id="110" x="648.833" y="1388" width="20.5" height="147.5"/>
+  <object id="111" x="575.833" y="1352.33" width="93.5" height="32"/>
+  <object id="112" x="543.75" y="1383.67" width="49" height="33.25"/>
+  <object id="113" x="511.833" y="1416.83" width="56.5" height="32.8333"/>
+  <object id="114" x="480.333" y="1447.5" width="59" height="31.5"/>
+  <object id="115" x="446.833" y="1479.33" width="60.75" height="32.75"/>
+  <object id="116" x="415.5" y="1512.42" width="59.5" height="24.5833"/>
   <object id="117" x="941" y="31.5" width="15" height="38"/>
   <object id="118" x="1415" y="920" width="21.5" height="36.5"/>
   <object id="119" x="1240.5" y="939.5" width="173.5" height="17"/>
-  <object id="121" x="707.5" y="599" width="23" height="37"/>
+  <object id="121" x="707.5" y="603.75" width="23" height="32.25"/>
   <object id="122" x="729" y="618.5" width="304" height="17"/>
-  <object id="125" x="192" y="1217.33" width="24.6667" height="58"/>
-  <object id="126" x="1270.33" y="258" width="49.3333" height="17"/>
+  <object id="125" x="199.5" y="1222.7" width="15.9167" height="49.625"/>
+  <object id="126" x="1251.83" y="264.75" width="67.8333" height="21.25"/>
   <object id="127" x="1419.67" y="246.333" width="15.6667" height="292"/>
   <object id="129" x="1270" y="523" width="148.667" height="15"/>
   <object id="130" x="1099.33" y="273.333" width="17" height="40"/>
   <object id="132" x="913.333" y="298.667" width="185.667" height="15"/>
+  <object id="205" x="131" y="1255" width="26.5" height="51"/>
  </objectgroup>
  <objectgroup id="13" name="positions" visible="0">
   <object id="82" name="player" x="145.333" y="248">
@@ -404,59 +413,191 @@
   </object>
  </objectgroup>
  <objectgroup id="15" name="camera" visible="0">
-  <object id="136" x="542" y="158.5" width="7.5" height="99.5">
-   <properties>
-    <property name="camPosY" type="int" value="100"/>
-   </properties>
-  </object>
-  <object id="138" x="963.5" y="184.5" width="7" height="73.5">
+  <object id="138" x="968" y="184.5" width="2.5" height="73.5">
    <properties>
     <property name="CamPosY" type="int" value="195"/>
    </properties>
   </object>
-  <object id="140" x="1089" y="189.5" width="6.5" height="67.5">
+  <object id="140" x="1092.5" y="192.5" width="3" height="64.5">
    <properties>
     <property name="camPosY" type="int" value="160"/>
    </properties>
   </object>
-  <object id="141" x="1115" y="312" width="134.5" height="5.5">
-   <properties>
-    <property name="camPosY" type="int" value="100"/>
-   </properties>
-  </object>
-  <object id="142" x="1128.5" y="28" width="10.5" height="71">
-   <properties>
-    <property name="camPosY" type="int" value="100"/>
-   </properties>
-  </object>
-  <object id="144" x="1469.5" y="229" width="131" height="7.5">
-   <properties>
-    <property name="camPosY" type="int" value="190"/>
-   </properties>
-  </object>
-  <object id="145" x="1436.5" y="364" width="164.5" height="8">
+  <object id="141" x="1115" y="312" width="134.5" height="2.5">
    <properties>
     <property name="camPosY" type="int" value="300"/>
    </properties>
   </object>
-  <object id="146" x="1437.5" y="489" width="162.5" height="9">
+  <object id="142" x="1135" y="28" width="4" height="71">
+   <properties>
+    <property name="camPosY" type="int" value="158"/>
+   </properties>
+  </object>
+  <object id="144" x="1469.5" y="232" width="131" height="4.5">
+   <properties>
+    <property name="camPosY" type="int" value="160"/>
+   </properties>
+  </object>
+  <object id="145" x="1436.5" y="366.5" width="164.5" height="5">
+   <properties>
+    <property name="camPosY" type="int" value="300"/>
+   </properties>
+  </object>
+  <object id="146" x="1436.5" y="493" width="162.5" height="1.5">
    <properties>
     <property name="camPosY" type="int" value="450"/>
    </properties>
   </object>
-  <object id="148" x="1418.5" y="541" width="7.5" height="35">
+  <object id="148" x="1433.5" y="537.5" width="2.5" height="39">
    <properties>
-    <property name="camPosY" type="int" value="510"/>
+    <property name="camPosY" type="int" value="480"/>
    </properties>
   </object>
-  <object id="149" x="1257" y="538.5" width="7" height="37.5">
+  <object id="149" x="1256.5" y="539.5" width="2" height="40.5">
    <properties>
     <property name="camPosY" type="int" value="550"/>
    </properties>
   </object>
-  <object id="170" x="1147.5" y="100.5" width="454.5" height="11.5">
+  <object id="170" x="1147.5" y="107" width="454.5" height="5">
    <properties>
-    <property name="camPosY" type="int" value="120"/>
+    <property name="camPosY" type="int" value="165"/>
+   </properties>
+  </object>
+  <object id="173" x="814" y="428.5" width="438.5" height="4">
+   <properties>
+    <property name="camPosY" type="int" value="480"/>
+   </properties>
+  </object>
+  <object id="174" x="1252.5" y="533.5" width="1.5" height="43.5">
+   <properties>
+    <property name="camPosY" type="int" value="480"/>
+   </properties>
+  </object>
+  <object id="175" x="1428.5" y="541" width="2.5" height="37.5">
+   <properties>
+    <property name="camPosY" type="int" value="550"/>
+   </properties>
+  </object>
+  <object id="177" x="635" y="583.5" width="71" height="1.5">
+   <properties>
+    <property name="camPosY" type="int" value="590"/>
+   </properties>
+  </object>
+  <object id="178" x="710" y="469" width="3" height="107.5">
+   <properties>
+    <property name="camPosY" type="int" value="480"/>
+   </properties>
+  </object>
+  <object id="179" x="638" y="683.5" width="287" height="1">
+   <properties>
+    <property name="camPosY" type="int" value="690"/>
+   </properties>
+  </object>
+  <object id="180" x="635.5" y="766" width="290" height="4">
+   <properties>
+    <property name="camPosY" type="int" value="800"/>
+   </properties>
+  </object>
+  <object id="181" x="636.5" y="858.5" width="2.5" height="38">
+   <properties>
+    <property name="camPosY" type="int" value="865"/>
+   </properties>
+  </object>
+  <object id="182" x="643" y="861.5" width="3.5" height="34.5">
+   <properties>
+    <property name="camPosY" type="int" value="800"/>
+   </properties>
+  </object>
+  <object id="183" x="-0.5" y="845.5" width="160" height="3.5">
+   <properties>
+    <property name="camPosY" type="int" value="750"/>
+   </properties>
+  </object>
+  <object id="185" x="1" y="582.5" width="98.5" height="2.5">
+   <properties>
+    <property name="camPosY" type="int" value="550"/>
+   </properties>
+  </object>
+  <object id="187" x="3" y="702" width="153.5" height="2">
+   <properties>
+    <property name="camPosY" type="int" value="750"/>
+   </properties>
+  </object>
+  <object id="188" x="1435" y="904" width="164" height="3">
+   <properties>
+    <property name="camPosY" type="int" value="950"/>
+   </properties>
+  </object>
+  <object id="189" x="1432" y="767.5" width="2" height="133.5">
+   <properties>
+    <property name="camPosY" type="int" value="800"/>
+   </properties>
+  </object>
+  <object id="190" x="1217" y="1019" width="384" height="2.5">
+   <properties>
+    <property name="camPosY" type="int" value="950"/>
+   </properties>
+  </object>
+  <object id="191" x="1170.5" y="1103.5" width="369.5" height="2">
+   <properties>
+    <property name="camPosY" type="int" value="1120"/>
+   </properties>
+  </object>
+  <object id="192" x="-0.5" y="1222" width="196" height="2">
+   <properties>
+    <property name="camPosY" type="int" value="1300"/>
+   </properties>
+  </object>
+  <object id="193" x="197" y="1124.5" width="2.5" height="92.5">
+   <properties>
+    <property name="camPosY" type="int" value="1120"/>
+   </properties>
+  </object>
+  <object id="194" x="2.5" y="1317" width="298" height="3.5">
+   <properties>
+    <property name="camPosY" type="int" value="1350"/>
+   </properties>
+  </object>
+  <object id="195" x="0" y="1406.5" width="333" height="4">
+   <properties>
+    <property name="camPosY" type="int" value="1445"/>
+   </properties>
+  </object>
+  <object id="196" x="437.5" y="1277.5" width="3.5" height="258.5">
+   <properties>
+    <property name="camPosY" type="int" value="1400"/>
+   </properties>
+  </object>
+  <object id="197" x="664" y="1275.5" width="3.5" height="69.5">
+   <properties>
+    <property name="camPosY" type="int" value="1440"/>
+   </properties>
+  </object>
+  <object id="198" x="659" y="1277" width="3" height="72">
+   <properties>
+    <property name="camPosY" type="int" value="1400"/>
+   </properties>
+  </object>
+  <object id="199" x="1501.5" y="1278.5" width="3.5" height="164"/>
+  <object id="200" x="1511" y="1274.5" width="4" height="168.5"/>
+  <object id="201" x="106.5" y="482" width="2" height="93.5">
+   <properties>
+    <property name="camPosY" type="int" value="480"/>
+   </properties>
+  </object>
+  <object id="202" x="1435" y="499" width="166" height="7">
+   <properties>
+    <property name="camPosY" type="int" value="480"/>
+   </properties>
+  </object>
+  <object id="203" x="2.5" y="697" width="155.5" height="2.5">
+   <properties>
+    <property name="camPosY" type="int" value="550"/>
+   </properties>
+  </object>
+  <object id="204" x="165.5" y="639.5" width="1.5" height="259.5">
+   <properties>
+    <property name="camPosY" type="int" value="865"/>
    </properties>
   </object>
  </objectgroup>
@@ -501,8 +642,8 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,31,31,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,31,31,31,0,0,0,0,0,0,0,0,0,0,31,31,31,31,31,31,31,31,31,31,31,31,31,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,122,88,0,0,0,
 0,0,0,0,0,31,955,948,948,948,948,970,972,970,953,963,961,953,953,963,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,
-0,0,0,0,0,0,73,74,74,74,74,74,74,74,74,74,74,74,74,74,74,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,
-138,139,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,68,68,68,68,68,68,68,68,68,68,68,68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,142,0,73,74,74,74,74,74,74,74,74,74,74,74,74,74,74,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,
+138,139,0,0,151,0,0,0,0,0,0,0,0,0,0,0,0,0,68,68,68,68,68,68,68,68,68,68,68,68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 147,148,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,68,68,68,68,68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 156,157,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,109,110,111,0,0,0,0,0,0,122,122,122,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,142,0,0,0,0,0,0,0,0,0,0,0,0,0,109,110,111,120,0,0,0,0,0,0,122,122,122,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

@@ -1,3 +1,4 @@
+import { state, statePropsEnum } from "../state/globalStateManager.js";
 export function setBackgroundColor(k, hexColorCode) {
   k.add([
     k.rect(k.width(), k.height()),
@@ -130,20 +131,20 @@ export function setCameraControls(k, player, map, roomData) {
   k.onUpdate(() => {
     if (state.current().playerInBossFight) return;
 
-    if (map.pos.x + 160 > player.pos.x) {
-      k.camPos(map.pos.x + 160, k.camPos().y);
+    if (map.pos.x + 257 > player.pos.x) {
+      k.setCamPos(map.pos.x + 257, k.getCamPos().y);
       return;
     }
 
-    if (player.pos.x > map.pos.x + roomData.width * roomData.tilewidth - 160) {
-      k.camPos(
-        map.pos.x + roomData.width * roomData.tilewidth - 160,
-        k.camPos().y,
+    if (player.pos.x > map.pos.x + roomData.width * roomData.tilewidth - 257) {
+      k.setCamPos(
+        map.pos.x + roomData.width * roomData.tilewidth - 257,
+        k.getCamPos().y,
       );
       return;
     }
 
-    k.camPos(player.pos.x, k.camPos().y);
+    k.setCamPos(player.pos.x, k.getCamPos().y);
   });
 }
 
@@ -158,12 +159,12 @@ export function setCameraZones(k, map, cameras) {
     ]);
 
     cameraZone.onCollide("adventurer", () => {
-      if (k.camPos().x !== camera.properties[0].value) {
+      if (k.getCamPos().x !== camera.properties[0].value) {
         k.tween(
           k.camPos().y,
           camera.properties[0].value,
           0.8,
-          (val) => k.camPos(k.camPos().x, val),
+          (val) => k.setCamPos(k.getCamPos().x, val),
           k.easings.linear,
         );
       }
