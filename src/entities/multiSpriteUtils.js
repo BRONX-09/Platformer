@@ -27,12 +27,8 @@ export function enableMultiSpriteMode(entity, k, characterName, spriteConfigs) {
 
     const spriteName = `${characterName}-${action}`;
 
-    // Remove old sprite component
-    this.removeSpriteComp?.();
-
-    // Add new sprite
-    this.sprite = k.sprite(spriteName);
-    this.add(this.sprite);
+    // Use kaplay's use() method to swap the sprite component
+    this.use(k.sprite(spriteName));
 
     // Play animation
     const animKey = Object.keys(spriteData.anims)[0];
@@ -41,8 +37,6 @@ export function enableMultiSpriteMode(entity, k, characterName, spriteConfigs) {
     this.currentAction = action;
   };
 
-  // Initialize with idle action
-  if (entity.spriteConfigs.idle) {
-    entity.switchAction("idle");
-  }
+  // Set initial state (sprite already added during entity creation)
+  entity.currentAction = "idle";
 }

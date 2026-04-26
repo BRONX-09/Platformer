@@ -68,4 +68,54 @@ export const spriteConfigs = {
       },
     },
   },
+  skeleton: {
+    idle: {
+      path: "sprites/Skeleton/Sprite%20Sheets/Skeleton%20Idle.png",
+      sliceX: 10,
+      sliceY: 1,
+      anims: {
+        idle: { from: 0, to: 9, loop: true, speed: 8 },
+      },
+    },
+    walk: {
+      path: "sprites/Skeleton/Sprite%20Sheets/Skeleton%20Walk.png",
+      sliceX: 13,
+      sliceY: 1,
+      anims: {
+        walk: { from: 0, to: 12, loop: true, speed: 10 },
+      },
+    },
+    attack: {
+      path: "sprites/Skeleton/Sprite%20Sheets/Skeleton%20Attack.png",
+      sliceX: 21,
+      sliceY: 1,
+      anims: {
+        attack: { from: 0, to: 20, speed: 16 },
+      },
+    },
+    hit: {
+      path: "sprites/Skeleton/Sprite%20Sheets/Skeleton%20Hit.png",
+      sliceX: 8,
+      sliceY: 1,
+      anims: {
+        hit: { from: 0, to: 7, speed: 12 },
+      },
+    },
+    react: {
+      path: "sprites/Skeleton/Sprite%20Sheets/Skeleton%20React.png",
+      sliceX: 4,
+      sliceY: 1,
+      anims: {
+        react: { from: 0, to: 3, speed: 10 },
+      },
+    },
+    dead: {
+      path: "sprites/Skeleton/Sprite%20Sheets/Skeleton%20Dead.png",
+      sliceX: 15,
+      sliceY: 1,
+      anims: {
+        dead: { from: 0, to: 14, speed: 12 },
+      },
+    },
+  },
 };

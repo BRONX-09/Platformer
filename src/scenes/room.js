@@ -4,6 +4,7 @@ import {
   setMapColliders,
 } from "./sceneUtils";
 import { makePlayer } from "../entities/player";
+import { makeSkeletonFootSoldier } from "../entities/enemy_swordsman";
 
 export function room(k, roomData) {
   k.setCamScale(2.5);
@@ -29,5 +30,24 @@ export function room(k, roomData) {
       player.setControls();
       player.setEvents();
     }
+    
+    // Spawn skeletons at positions with names like "1.1", "1.2", "2.1", etc.
+    if (/^\d+\.\d+$/.test(position.name)) {
+      const skeleton = map.add(
+        makeSkeletonFootSoldier(k, k.vec2(position.x, position.y))
+      );
+      skeleton.enableAI(player);
+    }
   }
+
+  // Collision detection: sword hits skeleton
+  player.onCollide("sword-hitbox", (hitbox) => {
+    const skeletons = k.get("skeleton-enemy");
+    for (const skeleton of skeletons) {
+      if (hitbox.pos.dist(skeleton.pos) < 30) {
+        skeleton.onHitByPlayer();
+        break;
+      }
+    }
+  });
 }
